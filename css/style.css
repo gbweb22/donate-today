@@ -1,0 +1,241 @@
+/* common css */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+ol{
+   list-style: none; 
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: rgb(241, 82, 82);
+    border: 2px solid rgb(241, 82, 82);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.spaceing{
+    padding: 20px 0px;
+}
+
+.section_spacing{
+    padding-top: 90px;
+}
+/* header part  */
+
+/* navbar  */
+.header_area{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bg-donet.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 70px;
+}
+
+.navbar h1{
+    font-family: 'Hind Madurai', sans-serif;
+    color: rgb(241, 239, 237);
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav > .item a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 235, 235);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-transform: uppercase; 
+}
+.item a:hover{
+    border-bottom: 2px solid goldenrod;
+    color: antiquewhite;
+    transition: all 0.3s;
+}
+
+/* content  */
+
+.content_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.content > .btn:hover{
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: rgb(221, 172, 172);
+}
+
+/* donation  */
+
+.donation_area{
+    display: flex;
+    justify-content: center;text-align: center;
+}
+.donation_content h2,
+.donation_plane h2{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.food_icon,
+.share_icon,
+.education{
+    width: 60px;
+}
+.amount_area{
+    display: flex;
+    justify-content: space-evenly;
+}
+.amount_area > .item {
+    padding: 25px 20px;
+    background-color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.input_other_amount{
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(39, 32, 32);
+    font-size: 14px;
+}
+.selected{
+    border: 1px solid red;
+    color: red;
+    background-color: rgb(235, 229, 229)!important;
+}
+
+/* donation plane  */
+
+.card_area{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    padding: 0px 8px;
+    text-align: left;
+}
+.card_food{
+    background-color: #edf5f6;
+    padding: 35px 25px;
+}
+
+.card_share{
+    background-color: #ffeeee;
+    padding: 35px 25px;
+}
+
+.card_education{
+    background-color: #fff4d6;
+    padding: 35px 25px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.image_area img{
+    width: 100%;
+}
+.space_left{
+    padding-left: 20px;
+}
+.space_right{
+    padding-right: 20px;
+}
+
+.first-banner{
+    padding: 90px 70px;
+    padding-bottom: 0px;
+}
+.content,
+.image_area{
+    width: 50%;
+}
+
+.banner_text{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+.content h2{
+    font-size: 35px;
+}
+
+/* contact page  */
+.contact_area{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 30vh;
+    align-items: center;
+}
+.contact_area input,
+.contact_area button
+{
+    font-size: 18px;
+    padding: 5px;
+}
+.btn2{
+    background-color: #f15252;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    border: 2px solid #f15252;
+    color: #fff;
+}
+
+/* footer  */
+.footer{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
